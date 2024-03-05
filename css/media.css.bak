@@ -1,0 +1,54 @@
+
+/* mobile-view */
+@media(min-width:320px){
+	#quotes-slider{
+	  height:60vh;
+	}
+	.quotes-slides{
+	  width:60%;
+	}
+	.quotes{
+	font-size:20px;
+	}
+	.quotes-slide{
+	width:80%;
+	padding-left:50px;
+	padding-top:150px;
+	}
+}
+
+/* tab-view */
+@media(min-width:760px){
+	#quotes-slider{
+	height:70vh;
+	}
+	.quotes-slides{
+	  width:80%;
+	}
+	.quotes{
+	font-size:25px;
+	}
+	.quotes-slide{
+	width:80%;
+	padding-left:120px;
+	padding-top:17rem;
+    }
+}
+
+/* desktop-view */
+@media(min-width:980px){
+	#quotes-slider{
+	height:90vh;
+	}
+	.quotes-slides{
+	  width:80%;
+	}
+	.quotes{
+	font-size:30px;
+	}
+	.quotes-slide{
+	width:80%;
+	padding-left:20rem;
+	padding-top:15rem;
+	}
+}
